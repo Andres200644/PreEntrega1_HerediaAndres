@@ -1,4 +1,3 @@
-
 /* src/components/NavBar.css */
 .navbar {
   display: flex;
@@ -21,14 +20,16 @@
   gap: 1rem;
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 .navbar-links li {
   display: inline;
+  color: black;
 }
 
 .navbar-links a {
-  color: rgb(129, 0, 0);
+  color: black;
   text-decoration: none;
   font-size: 1rem;
   justify-content: center;
@@ -38,42 +39,39 @@
   color: aqua;
 }
 
+.cart-widget {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
 
+.cart-widget .badge {
+  background-color: #87CEEB;
+  margin-left: 5px;
+  color: #800020;
+}
 
-  .cart-widget {
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-  }
-  
-  .cart-widget .badge {
-    background-color: #87CEEB; 
-    margin-left: 5px;
-    color: #800020; 
-  }
-  
-  .item-list-container {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .item-list-container h2 {
-    color: #800020;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .mt-5 {
-    margin-top: 3rem;
-  }
-  
-  .mb-5 {
-    margin-bottom: 3rem;
-  }
-  
+.item-list-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-list-container h2 {
+  color: #800020;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
