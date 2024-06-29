@@ -1,15 +1,15 @@
 /* src/components/NavBar.css */
-.navbar {
+.NavBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: transparent;
   color: white;
+  background-color: transparent;
 }
 
 .navbar-logo a {
-  color: rgb(85, 0, 0);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -48,7 +48,7 @@
 .cart-widget .badge {
   background-color: #87CEEB;
   margin-left: 5px;
-  color: #800020;
+  color: black;
 }
 
 .item-list-container {
@@ -61,7 +61,7 @@
 }
 
 .item-list-container h2 {
-  color: #800020;
+  color: black;
 }
 
 .text-center {
@@ -74,4 +74,9 @@
 
 .mb-5 {
   margin-bottom: 3rem;
+}
+
+.ItemListConteiner-h3{
+  justify-content: left;
+  text-align: left;
 }

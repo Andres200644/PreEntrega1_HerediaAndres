@@ -8,6 +8,7 @@ function App() {
         <div className="App">
             <NavBar />
             <ItemListConteiner greeting="Bienvenidos a runwayStyle nuestra tienda de ropa deportiva" />
+            <h3 className='ItemListConteiner-h3'> Encuentra aqui las mejores marcas y ofertas</h3>
         </div>
     );
 }
